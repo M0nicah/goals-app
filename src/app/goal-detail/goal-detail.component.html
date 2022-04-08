@@ -1,0 +1,4 @@
+<p class="bg-light p-3 mt-4 fw-bold">{{ goal.description }}</p>
+<p class="text-primary fst-italic">This goal will be complete in {{goal.completeDate|dateCount}} days</p>
+<button (click)= 'goalDelete(true)' class="btn btn-outline-danger mb-3">Delete Goal</button>
+

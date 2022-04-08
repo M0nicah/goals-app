@@ -1,0 +1,10 @@
+li{
+    list-style-type: none;
+}
+div{
+    background-color: pink;
+}
+p{
+    color: red;
+    font-weight: bold;
+}
